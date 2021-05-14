@@ -1,1 +1,1 @@
-# github action練習用のリポジトリ
+github action練習用のリポジトリ
