@@ -2,16 +2,15 @@ name: issue opened create todo
 
 on:
   issues:
-    types: opened
-
-  workflow_dispatch:
-
+    types: [opened]
+name: Issue opened
 jobs:
-  build:
+  assign:
+    name: Assign issues to project
     runs-on: ubuntu-latest
-
     steps:
-      - uses: actions/checkout@v2
-
-      - name: Run a one-line script
-        run: echo Hello, world!
+      - name: Assign issues to project
+        uses: technote-space/create-project-card-action@v1
+        with:
+          PROJECT: 開発
+          COLUMN: やる
