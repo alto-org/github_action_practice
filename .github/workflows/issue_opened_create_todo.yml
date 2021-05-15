@@ -3,7 +3,7 @@ name: issue opened create todo
 on:
   issues:
     types: [opened]
-name: Issue opened
+
 jobs:
   assign:
     name: Assign issues to project
