@@ -1,16 +1,16 @@
-name: issue opened create todo
+# name: issue opened create todo
 
-on:
-  issues:
-    types: [opened]
+# on:
+#   issues:
+#     types: [opened]
 
-jobs:
-  assign:
-    name: Assign issues to project
-    runs-on: ubuntu-latest
-    steps:
-      - name: Assign issues to project
-        uses: technote-space/create-project-card-action@v1
-        with:
-          PROJECT: 開発
-          COLUMN: やる
+# jobs:
+#   assign:
+#     name: Assign issues to project
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Assign issues to project
+#         uses: technote-space/create-project-card-action@v1
+#         with:
+#           PROJECT: 開発
+#           COLUMN: やる
