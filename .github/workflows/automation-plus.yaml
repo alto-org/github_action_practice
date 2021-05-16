@@ -1,11 +1,11 @@
-name: Automatically register issues in Kanban
+name: Automatically register issues in kanban
 
 on:
   issues:
     types: [opened]
 
 jobs:
-  register issues in Kanban:
+  register issues in kanban:
     runs-on: ubuntu-latest
     steps:
       - uses: alex-page/github-project-automation-plus@v0.7.1
