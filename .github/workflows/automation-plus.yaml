@@ -12,4 +12,4 @@ jobs:
         with:
           project: 開発
           column: やる
-          repo-token: ${{ secrets.ACCESS_TOKEN }}
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
