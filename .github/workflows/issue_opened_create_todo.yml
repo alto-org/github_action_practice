@@ -12,5 +12,5 @@ jobs:
       - name: Assign issues to project
         uses: technote-space/create-project-card-action@v1
         with:
-          PROJECT: 開発
-          COLUMN: やる
+          PROJECT: "開発"
+          COLUMN: "やる"
